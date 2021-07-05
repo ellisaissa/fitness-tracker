@@ -25,6 +25,6 @@ app.use(require("./routes.js"));
 
 app.listen(PORT, () => {
   console.log(
-    `Express/Node.js server running on: http://localhost:${PORT}/ \n`
+    `Express/Node.js listening on: http://localhost:${PORT}/ \n`
   );
   });
